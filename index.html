@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main class="main">
+        <div class="quiz" id="quiz">
+            <div class="quiz__content">
+                <div id="header" class="quiz__header">
+                    <h1 class="quiz__header-title">Загружаем вопрос...</h1>
+
+                    <h2 class="title">%title%</h2>
+                    <h3 class="summary">%message%</h3>
+                    <p class="result">%result%</p>
+                 </div>
+                 <ul id="list" class="quiz__list">
+                     <li>
+                         <label>
+                             <input class="custom-radio" type="radio" class="quiz__answer" name="answer">
+                             <span>Ответ...</span>
+                         </label>
+                     </li>
+                     <li>
+                         <label>
+                             <input class="custom-radio" type="radio" class="quiz__answer" name="answer">
+                             <span>Ответ...</span>
+                         </label>
+                     </li>
+                     
+                 </ul>
+                 <button id="submit">Ответить</button>
+            </div>
+        </div>
+    </main>
+<script src="js/script.js"></script>
+</body>
+</html>
